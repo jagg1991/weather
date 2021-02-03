@@ -3,20 +3,20 @@
     color: azure;
 }
 
-.cityName{
+.results{
     border-left: 1px solid black;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 15px;
     background-color:rgb(27, 27, 27);
     color: white;
-    margin: 5px;
-    padding-right: 20px;
+    margin: 10px;
+    height: 20px;
+    width: 25%;
 }
 
 .input-group{
     height: 20px;
     width: 25%;
     margin-left: 10px;
+    
    
 }
 
