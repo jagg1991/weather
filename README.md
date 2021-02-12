@@ -5,7 +5,8 @@ Hello, and welcome to my weather forecast page! On this site you will be able to
 ## Screen shot of the page! 
 ![](Assets/weather.png)
 
-![Weather](https://jagg1991.github.io/weather/)
+## Here is a link to my page!
+![https://jagg1991.github.io/weather/](https://jagg1991.github.io/weather/)
 
 ## Languages used in development
 
@@ -15,7 +16,7 @@ Hello, and welcome to my weather forecast page! On this site you will be able to
 -Jquery\
 -API\
 -JavaScript\
--Font Awesome\
+-Font Awesome
 
 # Contact me! 
 
