@@ -9,13 +9,13 @@ Hello, and welcome to my weather forecast page! On this site you will be able to
 
 ## Languages used in development
 
--HTML
--CSS
--Bootstrap
--Jquery
--API
--JavaScript
--Font Awesome
+-HTML\
+-CSS\
+-Bootstrap\
+-Jquery\
+-API\
+-JavaScript\
+-Font Awesome\
 
 # Contact me! 
 
