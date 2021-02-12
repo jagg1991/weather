@@ -4,3 +4,19 @@ Hello, and welcome to my weather forecast page! On this site you will be able to
 
 ## Screen shot of the page! 
 ![](Assets/weather.png)
+
+![Weather](https://jagg1991.github.io/weather/)
+
+## Languages used in development
+
+-HTML
+-CSS
+-Bootstrap
+-Jquery
+-API
+-JavaScript
+-Font Awesome
+
+# Contact me! 
+
+If you have any questions or concerns, please feel free to contact me at [josephguajardo@ymail.com](josephguajardo@ymail.com)
