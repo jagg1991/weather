@@ -6,7 +6,7 @@ Hello, and welcome to my weather forecast page! On this site you will be able to
 ![](Assets/weather.png)
 
 ## Here is a link to my page!
-![https://jagg1991.github.io/weather/](https://jagg1991.github.io/weather/)
+[https://jagg1991.github.io/weather/](https://jagg1991.github.io/weather/)
 
 ## Languages used in development
 
