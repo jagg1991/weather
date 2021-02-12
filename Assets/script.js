@@ -39,6 +39,14 @@ $("#btnSrch").on("click", function () {
 
 });
 
+$('.results').on('click', function () {
+    var results = $('button').value();
+
+    if (results) {
+        getApi(results)
+    }
+})
+
 
 
 var getApi = function (city) {
@@ -88,9 +96,9 @@ var getApi = function (city) {
                     var header = $("<h1>").text("5 day weather forcast!").addClass("weatherForcast");
                     forcast.append(header)
                     for (var i = 0; i < 5; i++) {
-                        // let unix_timestamp = data.daily[i].dt
-                        // var date = new Date(unix_timestamp * 1000);
-                        // console.log(date);
+                        let unix_timestamp = data.daily[i].dt
+                        var date = new Date(unix_timestamp * 1000);
+                        console.log(date);
                         var row2 = $('<div>').addClass("col-2 card forcast");
                         var temp = $('<h6>').text("Tempature: " + data.daily[i].temp.day + '°');
                         var hum = $('<p>').text("Humidity: " + data.daily[i].humidity + " %");
