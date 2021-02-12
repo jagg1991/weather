@@ -32,6 +32,16 @@ $("#btnSrch").on("click", function () {
         getApi(results)
 
     }
+    $(row).click(function (event) {
+
+        var buttonText = $(this).text();
+        getApi(buttonText);
+        $('.weather').empty();
+        $('.col-2').empty();
+        $('.futureDisplay').empty();
+        $('#cityName').empty();
+    })
+
     $('.weather').empty();
     $('.col-2').empty();
     $('.futureDisplay').empty();
@@ -39,13 +49,13 @@ $("#btnSrch").on("click", function () {
 
 });
 
-$('.results').on('click', function () {
-    var results = $('button').value();
+// $('.results').on('click', function () {
+//     var results = $(this).text()
 
-    if (results) {
-        getApi(results)
-    }
-})
+//     if (results) {
+//         getApi(results)
+//     }
+// })
 
 
 
