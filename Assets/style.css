@@ -10,9 +10,10 @@
     
     background-color:rgb(27, 27, 27);
     color: grey;
-    margin: 10px;
+    margin: 20px;
     height: 30px;
     width: 100%;
+
 }
 .card{
     margin: 5px;
@@ -52,4 +53,11 @@ body
     background-color: #3e8e41;
     box-shadow: 0 5px rgb(19, 18, 18);
     transform: translateY(4px);
+  }
+  .card-1{
+      margin: 30px;
+      width: 75%;
+  }
+  .row {
+      float: right;
   }
