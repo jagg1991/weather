@@ -3,10 +3,10 @@ var search = $('#search');
 
 var cityName = $('#cityName')
 var button2 = document.getElementById("btn2");
-var forcast = $('.futureDisplay')
-    //var todaysDate = moment().format("MM/DD/YYYY");
+var forcast = $('.futureDisplay');
+//var todaysDate = moment().format("MM/DD/YYYY");
 
-    ;
+
 
 
 
@@ -106,16 +106,16 @@ var getApi = function (city) {
                     var header = $("<h1>").text("5 day weather forcast!").addClass("weatherForcast");
                     forcast.append(header)
                     for (var i = 0; i < 5; i++) {
-                        let unix_timestamp = data.daily[i].dt
-                        var date = new Date(unix_timestamp * 1000);
-                        console.log(date);
+                        let unix_timestamp = data.daily[i].dt;
+                        var day = moment.unix(unix_timestamp).format('MM-DD-YYYY');
+                        console.log(day);
                         var row2 = $('<div>').addClass("col-2 card forcast");
                         var temp = $('<h6>').text("Tempature: " + data.daily[i].temp.day + '°');
                         var hum = $('<p>').text("Humidity: " + data.daily[i].humidity + " %");
                         var wind = $("<p>").text("Wind: " + data.daily[i].wind_speed + "MPH")
-                        // var h2 = $('<h2>').text.timeConverter(data.current.dt);
+                        var h2 = $('<h2>').text(day);
                         forcast.append(row2);
-                        row2.append(temp, hum, wind)
+                        row2.append(temp, hum, wind, h2)
                     }
                 })
             return;
